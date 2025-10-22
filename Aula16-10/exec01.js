@@ -1,4 +1,8 @@
-//Exercicio medias
+/*
+    Elabore uma função que receba um número como parâmetro e determine se ele é
+    positivo, negativo ou zero. A função deve imprimir o resultado no console informando a
+    classificação do número.
+*/
 
 function identificarNumero(numero){
     if (numero > 0){
@@ -11,20 +15,3 @@ function identificarNumero(numero){
 }
 
 identificarNumero(-10);
-
-
-
-function situacaoNota(media){
-    if (media >= 7) console.log('Aprovado');
-    else if (media >= 5) console.log('Recuperação');
-        else console.log('Reprovado');
-}
-
-
-situacaoNota(10);
-
-function parImpar(numero){
-    numero % 2 == 0 ? console.log('Par') : console.log('Impar');
-}
-
-parImpar(12);
