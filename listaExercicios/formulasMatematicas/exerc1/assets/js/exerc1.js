@@ -1,3 +1,8 @@
+/*
+    1. Escreva um programa que solicite ao usuário dois números e exiba a soma, subtração,
+    multiplicação e divisão entre eles.
+*/
+
 function operacoes(){
     const numero1 = Number(prompt("Forneça o primeiro número:"));
     const numero2 = Number(prompt("Forneça o segundo número:"));
