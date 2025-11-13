@@ -2,7 +2,7 @@
 
 // Comportamento do continue -> Pula o restante do conteúdo do bloco e volta pra ele
 // bloco só loop? Sim, só loop (enclosing iteration statement)
-
+/*
 let j = 0;
 
 if(j == 0){
@@ -38,3 +38,20 @@ do{
         do... while
 */
 
+
+// do... while
+
+const a = [10, 20, 30, 40];
+
+console.log(a.length);
+
+let i = 0;
+while(i < a.length){
+    console.log(i, a[i]);
+    i++;
+}
+i = 0;
+do{
+    console.log(i, a[i]);
+    i++;
+}while(i < a.length);
